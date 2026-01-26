@@ -1,7 +1,8 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { UsersController } from './users.controller';
 import { UsersService } from './users.service';
-
+import { ApiTags } from '@nestjs/swagger';
+ApiTags('users');
 describe('UsersController', () => {
   let controller: UsersController;
 

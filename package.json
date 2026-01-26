@@ -26,12 +26,14 @@
     "eslint": "^8.0.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
-    "turbo": "^1.10.0",
+    "turbo": "^1.13.4",
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "@nestjs/config": "^4.0.2",
+    "@nestjs/swagger": "^11.2.5",
     "@nestjs/typeorm": "^11.0.0",
+    "nodemon": "^3.1.11",
     "pg": "^8.16.3",
     "typeorm": "^0.3.27"
   }
